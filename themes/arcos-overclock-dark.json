@@ -1,0 +1,83 @@
+{
+  "$schema":"vscode://schemas/color-theme",
+  "name":"ArcOS • Overclock (Dark)",
+  "type":"dark",
+  "colors":{
+    "foreground":"#E6EAF0",
+    "focusBorder":"#FFC107",
+    "selection.background":"#FFC10722",
+
+    "editor.background":"#0F172A",
+    "editor.foreground":"#E6EAF0",
+    "editorCursor.foreground":"#FFC107",
+    "editor.lineHighlightBackground":"#1E293B",
+    "editor.selectionBackground":"#FFC10733",
+    "editor.inactiveSelectionBackground":"#FFC1071A",
+    "editor.selectionHighlightBackground":"#FFC10722",
+    "editor.wordHighlightBackground":"#FFC10722",
+    "editorIndentGuide.activeBackground":"#334155",
+    "editorIndentGuide.background":"#233042",
+    "editorBracketMatch.border":"#FFC107",
+    "editorBracketMatch.background":"#FFC1071A",
+
+    "sideBar.background":"#121A2B",
+    "sideBar.foreground":"#C7D1DD",
+    "activityBar.background":"#1E293B",
+    "activityBar.foreground":"#E6EAF0",
+    "activityBarBadge.background":"#FFC107",
+    "activityBarBadge.foreground":"#000000",
+
+    "titleBar.activeBackground":"#0F172A",
+    "titleBar.activeForeground":"#E6EAF0",
+
+    "statusBar.background":"#9C6A00",
+    "statusBar.foreground":"#FFFFFF",
+    "statusBar.noFolderBackground":"#9C6A00",
+    "statusBar.debuggingBackground":"#C62828",
+    "statusBar.debuggingForeground":"#FFFFFF",
+
+    "button.background":"#9C6A00",
+    "button.foreground":"#FFFFFF",
+    "button.hoverBackground":"#B27A00",
+
+    "badge.background":"#FFC107",
+    "badge.foreground":"#000000",
+
+    "list.activeSelectionBackground":"#233042",
+    "list.inactiveSelectionBackground":"#1A2436",
+    "list.hoverBackground":"#162033",
+    "list.focusBackground":"#1E2A3E",
+    "list.warningForeground":"#FFC107",
+    "list.errorForeground":"#E53935",
+
+    "input.background":"#0F172A",
+    "input.border":"#334155",
+    "input.foreground":"#E6EAF0",
+
+    "editorWidget.background":"#10192A",
+    "editorWidget.border":"#334155",
+    "panel.background":"#0F172A",
+    "panel.border":"#233042"
+  },
+  "tokenColors":[
+    { "name":"Comment","scope":["comment","punctuation.definition.comment"],"settings":{"foreground":"#5B6B80","fontStyle":"italic"} },
+    { "name":"String","scope":["string","constant.other.symbol"],"settings":{"foreground":"#00E676"} },
+    { "name":"Number","scope":["constant.numeric","constant.language.boolean"],"settings":{"foreground":"#FFC107"} },
+    { "name":"Keyword & Storage","scope":["keyword","storage.type","storage.modifier"],"settings":{"foreground":"#FFC107"} },
+    { "name":"Function & Method","scope":["entity.name.function","support.function"],"settings":{"foreground":"#FFC107"} },
+    { "name":"Type & Class & Interface","scope":["entity.name.type","entity.name.class","support.type"],"settings":{"foreground":"#FFC107"} },
+    { "name":"Variable & Parameter","scope":["variable","meta.definition.variable.name","variable.parameter"],"settings":{"foreground":"#E6EAF0"} },
+    { "name":"Property / Field","scope":["meta.object-literal.key","variable.other.property"],"settings":{"foreground":"#C7D1DD"} }
+  ],
+  "semanticHighlighting":true,
+  "semanticTokenColors":{
+    "function":"#FFC107",
+    "method":"#FFC107",
+    "parameter":"#E6EAF0",
+    "variable.readonly":"#FFC107",
+    "property":"#C7D1DD",
+    "enumMember":"#FFC107",
+    "keyword":"#FFC107",
+    "comment":"#5B6B80"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "iconTheme": "ArcOS • Icons",
+  "fonts": [],
+  "iconDefinitions": {
+    "_file": { "iconPath": "./svgs/file.svg" },
+    "_folder": { "iconPath": "./svgs/folder.svg" },
+    "_folder_open": { "iconPath": "./svgs/folder-open.svg" },
+    "js": { "iconPath": "./svgs/file_js.svg" },
+    "ts": { "iconPath": "./svgs/file_ts.svg" },
+    "json": { "iconPath": "./svgs/file_json.svg" },
+    "md": { "iconPath": "./svgs/file_md.svg" },
+    "css": { "iconPath": "./svgs/file_css.svg" }
+  },
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "languageIds": {
+    "javascript": "js",
+    "typescript": "ts",
+    "json": "json",
+    "markdown": "md",
+    "css": "css"
+  },
+  "fileExtensions": {
+    "js": "js",
+    "cjs": "js",
+    "mjs": "js",
+    "ts": "ts",
+    "tsx": "ts",
+    "json": "json",
+    "md": "md",
+    "css": "css"
+  }
+}

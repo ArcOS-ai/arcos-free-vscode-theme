@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#FFC107" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 3H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7z"></path>
+  <path d="M14 3v4h4"></path>
+  <text x="9" y="17" font-size="7" fill="#FFC107" stroke="none">JS</text>
+</svg>

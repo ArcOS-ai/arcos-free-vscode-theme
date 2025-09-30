@@ -1,0 +1,163 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "ArcOS • GØB (Hacker • Amber)",
+  "type": "dark",
+
+  "colors": {
+    "foreground":                 "#FFECC8",
+    "editor.background":          "#0A0A06",
+    "editor.foreground":          "#FFECC8",
+    "editor.lineHighlightBackground": "#161307",
+    "editorLineNumber.foreground":    "#8A6C2A",
+    "editorLineNumber.activeForeground": "#FFD37A",
+    "editorCursor.foreground":    "#FFC107",
+    "editor.selectionBackground": "#FFC10733",
+    "editor.inactiveSelectionBackground": "#FFC1071A",
+    "editor.selectionHighlightBackground": "#FFC10722",
+    "editor.wordHighlightBackground": "#FFC10722",
+    "editor.findMatchBackground": "#FFC10726",
+    "editor.findMatchBorder":     "#FFC107",
+    "editor.findMatchHighlightBackground": "#FFC10715",
+
+    "focusBorder":                "#FFC107",
+    "selection.background":       "#FFC10722",
+    "contrastBorder":             "#261C08",
+
+    "sideBar.background":         "#0D0C08",
+    "sideBar.foreground":         "#F7E1B3",
+    "activityBar.background":     "#121007",
+    "activityBar.foreground":     "#FFECC8",
+    "activityBarBadge.background":"#FFC107",
+    "activityBarBadge.foreground":"#000000",
+
+    "titleBar.activeBackground":  "#0A0A06",
+    "titleBar.activeForeground":  "#FFECC8",
+
+    "statusBar.background":       "#1F1708",
+    "statusBar.foreground":       "#F7E1B3",
+    "statusBar.noFolderBackground":"#1F1708",
+    "statusBar.debuggingBackground":"#4A2E07",
+    "statusBar.debuggingForeground":"#FFECC8",
+
+    "button.background":          "#B27A00",
+    "button.hoverBackground":     "#C58B00",
+    "button.foreground":          "#000000",
+
+    "badge.background":           "#FFC107",
+    "badge.foreground":           "#000000",
+
+    "list.activeSelectionBackground":   "#161307",
+    "list.inactiveSelectionBackground": "#141107",
+    "list.hoverBackground":             "#120F07",
+    "list.focusBackground":             "#1B1609",
+    "list.warningForeground":           "#FFC107",
+    "list.errorForeground":             "#FF6B66",
+
+    "input.background":           "#0A0A06",
+    "input.border":               "#3A2A0E",
+    "input.foreground":           "#FFECC8",
+
+    "editorWidget.background":    "#0B0A07",
+    "editorWidget.border":        "#3A2A0E",
+    "panel.background":           "#0A0A06",
+    "panel.border":               "#2A1E0A",
+
+    "peekViewEditor.background":  "#100E07",
+    "peekView.border":            "#3A2A0E",
+
+    "editorIndentGuide.background":       "#201809",
+    "editorIndentGuide.activeBackground": "#3E2C0C",
+    "editorBracketMatch.border":          "#FFC107",
+    "editorBracketMatch.background":      "#FFC10715",
+
+    "terminal.background":        "#0A0A06",
+    "terminal.foreground":        "#FFECC8",
+
+    "terminal.ansiBlack":         "#0A0A06",
+    "terminal.ansiRed":           "#FF6B66",
+    "terminal.ansiGreen":         "#C5FF66",
+    "terminal.ansiYellow":        "#FFC107",
+    "terminal.ansiBlue":          "#33B5FF",
+    "terminal.ansiMagenta":       "#FFD54F",
+    "terminal.ansiCyan":          "#FFD180",
+    "terminal.ansiWhite":         "#FFECC8",
+    "terminal.ansiBrightBlack":   "#3A2A0E",
+    "terminal.ansiBrightRed":     "#FF8A80",
+    "terminal.ansiBrightGreen":   "#E6FF7A",
+    "terminal.ansiBrightYellow":  "#FFD54F",
+    "terminal.ansiBrightBlue":    "#66CCFF",
+    "terminal.ansiBrightMagenta": "#FFE08A",
+    "terminal.ansiBrightCyan":    "#FFE3A3",
+    "terminal.ansiBrightWhite":   "#FFFFFF",
+
+    "editorGutter.addedBackground":    "#C58B00",
+    "editorGutter.modifiedBackground": "#E6B300",
+    "editorGutter.deletedBackground":  "#FF6B66",
+
+    "gitDecoration.addedResourceForeground":     "#FFD37A",
+    "gitDecoration.modifiedResourceForeground":  "#E6B300",
+    "gitDecoration.deletedResourceForeground":   "#FF8A80",
+    "gitDecoration.untrackedResourceForeground": "#FFC107",
+    "gitDecoration.ignoredResourceForeground":   "#8A6C2A"
+  },
+
+  "semanticHighlighting": true,
+
+  "tokenColors": [
+    { "name": "Comment",
+      "scope": ["comment","punctuation.definition.comment"],
+      "settings": { "foreground":"#6E5A27", "fontStyle":"italic" }
+    },
+    { "name": "String",
+      "scope": ["string","constant.other.symbol"],
+      "settings": { "foreground":"#FFE08A" }
+    },
+    { "name": "Number & Boolean",
+      "scope": ["constant.numeric","constant.language.boolean"],
+      "settings": { "foreground":"#FFD37A" }
+    },
+    { "name": "Keyword / Storage / Operator",
+      "scope": ["keyword","storage.type","storage.modifier","keyword.operator"],
+      "settings": { "foreground":"#FFC107", "fontStyle":"bold" }
+    },
+    { "name": "Functions",
+      "scope": ["entity.name.function","support.function","meta.function-call"],
+      "settings": { "foreground":"#FFD180" }
+    },
+    { "name": "Classes & Types",
+      "scope": ["entity.name.type","entity.name.class","support.type","support.class"],
+      "settings": { "foreground":"#FFE3A3" }
+    },
+    { "name": "Variables",
+      "scope": ["variable","meta.definition.variable.name","variable.other.readwrite"],
+      "settings": { "foreground":"#FFECC8" }
+    },
+    { "name": "Properties / Object keys",
+      "scope": ["meta.object-literal.key","variable.other.property"],
+      "settings": { "foreground":"#F7E1B3" }
+    },
+    { "name": "Punctuation / Delimiters",
+      "scope": ["punctuation","meta.brace","meta.delimiter"],
+      "settings": { "foreground":"#FFDE9A" }
+    },
+    { "name":"Invalid / Error",
+      "scope":["invalid","invalid.deprecated"],
+      "settings":{"foreground":"#000000","background":"#FF6B66"}
+    }
+  ],
+
+  "semanticTokenColors": {
+    "function":         "#FFD180",
+    "method":           "#FFD180",
+    "parameter":        "#FFECC8",
+    "variable.readonly":"#E6B300",
+    "property":         "#F7E1B3",
+    "enumMember":       "#FFE3A3",
+    "keyword":          "#FFC107",
+    "comment":          "#6E5A27",
+    "string":           "#FFE08A",
+    "number":           "#FFD37A",
+    "operator":         "#FFC107",
+    "type":             "#FFE3A3"
+  }
+}

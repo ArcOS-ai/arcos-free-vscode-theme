@@ -1,0 +1,35 @@
+{
+  "name": "arcos-free-theme",
+  "displayName": "ArcOS • Free (State Palette)",
+  "description": "ArcOS state-driven palette for VS Code — Idle · Primed · Ready · Overclock · Fault",
+  "version": "1.3.0",
+  "publisher": "ArcOS-famsy",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Themes","Other"],
+  "keywords": ["ArcOS","state","ready","primed","overclock","fault","jade","cyan","amber","red"],
+  "icon": "images/icon.png",
+  "galleryBanner": { "color": "#0F172A", "theme": "dark" },
+  "contributes": {
+    "themes": [
+      { "label": "ArcOS • Ready (Dark)",     "uiTheme": "vs-dark", "path": "./themes/arcos-ready-dark.json" },
+      { "label": "ArcOS • Ready (Light)",    "uiTheme": "vs",      "path": "./themes/arcos-ready-light.json" },
+      { "label": "ArcOS • Primed (Dark)",    "uiTheme": "vs-dark", "path": "./themes/arcos-primed-dark.json" },
+      { "label": "ArcOS • Overclock (Dark)", "uiTheme": "vs-dark", "path": "./themes/arcos-overclock-dark.json" },
+      { "label": "ArcOS • Fault (Dark)",     "uiTheme": "vs-dark", "path": "./themes/arcos-fault-dark.json" },
+      { "label": "ArcOS • GØB (Hacker)", "uiTheme": "vs-dark", "path": "./themes/arcos-gob-hacker-dark.json" },
+      { "label": "ArcOS • GØB (Hacker • Amber)", "uiTheme": "vs-dark", "path": "./themes/arcos-gob-amber-dark.json" }
+
+    ],
+    "iconThemes": [
+      { "id": "arcos-icons", "label": "ArcOS • Icons", "path": "./icon-theme/arcos-icons.json" }
+    ]
+  },
+  "scripts": {
+    "package": "npx @vscode/vsce package",
+    "publish": "npx @vscode/vsce publish"
+  },
+  "devDependencies": { "@vscode/vsce": "^3.0.0" },
+  "license": "Apache-2.0",
+  "repository": { "type": "git", "url": "https://github.com/ArcOS-ai/arcos-free-vscode-theme" }
+}
+
